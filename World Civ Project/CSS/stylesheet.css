@@ -1,0 +1,112 @@
+/* #scroll {
+    background-image: url('/Users/samuel/Desktop/World Civ Project/Scroll.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 1000px;
+    object-fit: contain;
+    width: auto;
+    
+
+}
+
+
+
+.body { 
+    background-color:skyblue;
+    text-align:center;
+    height: 1000px; 
+    width: 100%; 
+    overflow-x: hidden;
+ }
+
+*/
+  
+ 
+
+
+
+ body {
+    background-color: grey;
+    color: #3FA7D6;
+    font-family:  'Comfortaa';
+  }
+  
+  
+  h1 {
+    font-family: Spicy Rice, 'Comfortaa';
+    font-size: 5em;
+    overflow: break;
+  }
+  h2 {
+      font-family: 'Comfortaa';
+  }
+  
+  .overlay {
+    width: 80%;
+    min-width: 30%;
+    margin: 3% auto;
+    display: block;
+    padding: 2%;
+    height: 120vh;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 40px;
+    text-align: center;
+  }
+  
+  .sidenav {
+    height: 100%; 
+    width: 0; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0;
+    left: 0;
+    background-color: #111; 
+    overflow-x: hidden; 
+    padding-top: 60px; 
+    transition: 0.5s; 
+  }
+
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+  #main {
+    transition: margin-left .5s;
+    padding: 20px;
+  }
+
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  @font-face {
+    font-family: 'Comfortaa';
+    src: url('/Users/samuel/Downloads/transfonter.org-20220423-062459/Comfortaa-Light.eot');
+    src: url('Comfortaa-Light.eot?#iefix') format('embedded-opentype'),
+        url('/Users/samuel/Downloads/transfonter.org-20220423-062459/Comfortaa-Light.woff2') format('woff2'),
+        url('/Users/samuel/Downloads/transfonter.org-20220423-062459/Comfortaa-Light.woff') format('woff'),
+        url('C/Users/samuel/Downloads/transfonter.org-20220423-062459/Comfortaa-Light.ttf') format('truetype'),
+        url('/Users/samuel/Downloads/transfonter.org-20220423-062459/Comfortaa-Light.svg') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
