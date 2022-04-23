@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('/Users/samuel/Downloads/transfonter.org-20220423-062459/Comfortaa-Light.eot');
+    src: url('Comfortaa-Light.eot?#iefix') format('embedded-opentype'),
+        url('/Users/samuel/Downloads/transfonter.org-20220423-062459/Comfortaa-Light.woff2') format('woff2'),
+        url('/Users/samuel/Downloads/transfonter.org-20220423-062459/Comfortaa-Light.woff') format('woff'),
+        url('C/Users/samuel/Downloads/transfonter.org-20220423-062459/Comfortaa-Light.ttf') format('truetype'),
+        url('/Users/samuel/Downloads/transfonter.org-20220423-062459/Comfortaa-Light.svg') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
